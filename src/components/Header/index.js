@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
+import Navigation from '../Navigation'
 
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
+import About from '../pages/About';
+import Contact from '../pages/Contact';
+import Portfolio from '../pages/Portfolio';
+import Resume from '../pages/Resume';
 
-const PortfolioContainer = () => {
+const Header = () => {
 
     const [currentPage, setCurrentPage] = useState('About')
 
@@ -28,7 +28,7 @@ const PortfolioContainer = () => {
 
     return (
         <div>
-          <NavTabs currentPage={currentPage} setCurrentPage={setCurrentPage} />
+          <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
           <div>
               {
                 renderPage()
@@ -38,4 +38,4 @@ const PortfolioContainer = () => {
     )
 }
 
-export default PortfolioContainer
+export default Header
