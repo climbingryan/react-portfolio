@@ -1,3 +1,28 @@
+<!-- import React from 'react'
+
+const NavTabs = (props) => {
+    const pages = ['About', 'Contact', 'Portfolio', 'Resume']
+    return (
+        <ul>
+          {pages.map(page => {
+              <li key={page}>
+                <a 
+                  href={'#' + page.toLowerCase()}
+                  onClick={() => props.setCurrentPage(page)}
+                  className={
+                      props.currentPage === page ? '' : '' 
+                  }
+                >
+                  {page}
+                </a>
+              </li>
+          })}
+        </ul>
+    )
+}
+
+export default NavTabs -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
