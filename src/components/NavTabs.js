@@ -5,7 +5,7 @@ function NavTabs(props) {
   return (
     <ul className="nav nav-tabs">
       {pages.map(tab => (
-        <li className="nav-item" key={tab}>
+        <li className="nav-pages" key={tab}>
           <a
             href={'#' + tab.toLowerCase()}
             onClick={() => props.setCurrentPage(tab)}
