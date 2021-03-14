@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
 }
 
 .nav {
@@ -35,12 +43,18 @@
 
 .center {
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     height: 65vh;
 }
 .center p {
     width: 600px;
+}
+
+.resume-list {
+    display: flex;
+    flex-direction: column;
 }
 
 footer {

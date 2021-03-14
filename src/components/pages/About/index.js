@@ -3,8 +3,9 @@ import React from 'react'
 const index = () => {
     return (
         <div>
-            <h2 className='page-title'>About Me</h2>
+            
             <div className='center'>
+            <h2>About Me</h2>
                 <p>
                     Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
                     Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
