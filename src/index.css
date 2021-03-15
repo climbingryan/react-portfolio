@@ -6,10 +6,13 @@
     box-sizing: border-box;
 }
 
-h1, h2 {
+h1, h2, h4 {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     padding: 10px;
+}
+a {
+    font-family: 'Rubik', sans-serif; 
 }
 
 .nav {
@@ -46,16 +49,66 @@ h1, h2 {
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 65vh;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 .center p {
     width: 600px;
 }
-
+/** ===========
+    * ? RESUME
+    =============  **/
+.project-controller {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.text-bg {
+    background-color: black;
+    padding: 2px;
+    color: white;
+    margin: 2px;
+    border-radius: 2px;
+}
 .resume-list {
     display: flex;
     flex-direction: column;
 }
+.project-container {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    min-width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+}
+.image {
+    background-size: cover;
+    background-position: 50%;
+    width: 25%;
+}
+.budget-tracker {
+    background-image: url('./assets/bdgt-tkr-screenshot.JPG');
+}
+.tech-blogger {
+    background-image: url('./assets/tech-blogger-screenshot.JPG');
+}
+.note-taker {
+    background-image: url('./assets/note-taker.JPG');
+}
+.pizza-hunt {
+    background-image: url('./assets/pizza-hunt.JPG');
+}
+
+
+/** ========
+* ? FOOTER
+    ======== */
 
 footer {
     width: 100%;

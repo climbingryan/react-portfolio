@@ -6,7 +6,7 @@ const index = () => {
             
             <div className='center'>
             <h2>About Me</h2>
-                <p>
+                <p className='wrap'>
                     Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
                     Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
                     pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
