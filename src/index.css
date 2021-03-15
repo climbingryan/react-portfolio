@@ -105,11 +105,45 @@ a {
     background-image: url('./assets/pizza-hunt.JPG');
 }
 
+/*
+==============
+    FORM
+==============
+*/
+form {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-control {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.input-control label {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+.input-control input{
+    padding: 5px;
+}
+input {
+    width: min-content;
+}
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
 
-/** ========
-* ? FOOTER
-    ======== */
-
+/*  
+==============
+    FOOTER
+==============
+*/
 footer {
     width: 100%;
     height: 100px;
