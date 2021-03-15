@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/photo-port/static/css/main.41c227fd.chunk.css",
-    "main.js": "/photo-port/static/js/main.3d2dbf24.chunk.js",
-    "main.js.map": "/photo-port/static/js/main.3d2dbf24.chunk.js.map",
-    "runtime-main.js": "/photo-port/static/js/runtime-main.4c947504.js",
-    "runtime-main.js.map": "/photo-port/static/js/runtime-main.4c947504.js.map",
-    "static/js/2.4ce9a5f6.chunk.js": "/photo-port/static/js/2.4ce9a5f6.chunk.js",
-    "static/js/2.4ce9a5f6.chunk.js.map": "/photo-port/static/js/2.4ce9a5f6.chunk.js.map",
-    "static/js/3.b7c40c04.chunk.js": "/photo-port/static/js/3.b7c40c04.chunk.js",
-    "static/js/3.b7c40c04.chunk.js.map": "/photo-port/static/js/3.b7c40c04.chunk.js.map",
-    "index.html": "/photo-port/index.html",
-    "static/css/main.41c227fd.chunk.css.map": "/photo-port/static/css/main.41c227fd.chunk.css.map",
-    "static/js/2.4ce9a5f6.chunk.js.LICENSE.txt": "/photo-port/static/js/2.4ce9a5f6.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/photo-port/static/media/tech-blogger-screenshot.889748fa.JPG"
+    "main.css": "/react-portfolio/static/css/main.59c3c735.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.3d2dbf24.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.3d2dbf24.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.73241356.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.73241356.js.map",
+    "static/js/2.4ce9a5f6.chunk.js": "/react-portfolio/static/js/2.4ce9a5f6.chunk.js",
+    "static/js/2.4ce9a5f6.chunk.js.map": "/react-portfolio/static/js/2.4ce9a5f6.chunk.js.map",
+    "static/js/3.b7c40c04.chunk.js": "/react-portfolio/static/js/3.b7c40c04.chunk.js",
+    "static/js/3.b7c40c04.chunk.js.map": "/react-portfolio/static/js/3.b7c40c04.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.59c3c735.chunk.css.map": "/react-portfolio/static/css/main.59c3c735.chunk.css.map",
+    "static/js/2.4ce9a5f6.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.4ce9a5f6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/react-portfolio/static/media/tech-blogger-screenshot.889748fa.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c947504.js",
+    "static/js/runtime-main.73241356.js",
     "static/js/2.4ce9a5f6.chunk.js",
-    "static/css/main.41c227fd.chunk.css",
+    "static/css/main.59c3c735.chunk.css",
     "static/js/main.3d2dbf24.chunk.js"
   ]
 }
